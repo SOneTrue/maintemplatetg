@@ -20,7 +20,6 @@ async def user_two(message: Message, state: FSMContext):
     reply_markup = types.ReplyKeyboardRemove()
     await message.answer(f'✅Пример кнопок\n'
                          f'И переноса текста внутри кода.', reply_markup=reply_markup)
-    await state.update_data(number_auto=message.text)
     await state.finish()
 
 
