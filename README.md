@@ -1,5 +1,5 @@
 ## Оглавление
-
+#### **Проект работает на версии Python 3.8.x - 3.10.x. На версиях выше или ниже работоспособность не гарантируется.**
 - [maintemplate](#maintemplate)
   - [systemd](#systemd)
     - [tgbot.service](#tgbot.service)
